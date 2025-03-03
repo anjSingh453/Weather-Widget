@@ -1,0 +1,39 @@
+/* .SearchBox{
+    text-align: center;
+    margin-bottom: 25px;
+} */
+
+
+/* SearchBox.css */
+
+.SearchBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    padding: 20px; /* Add padding around the box */
+    background-color: #f0f0f0; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Limit the width of the search box */
+    margin: 0 auto; /* Center the search box on the page */
+}
+
+form {
+    width: 100%; /* Full width of the form */
+}
+
+.MuiTextField-root {
+    width: 100%; /* Full width for the text field */
+    margin-bottom: 16px; /* Space below the text field */
+}
+
+.MuiButton-root {
+    width: 100%; /* Full width for the button */
+}
+
+/* Error message styling */
+p {
+    margin-top: 10px; /* Space above the error message */
+    font-size: 14px; /* Font size for the error message */
+    
+}

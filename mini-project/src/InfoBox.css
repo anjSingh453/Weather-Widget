@@ -1,0 +1,55 @@
+/* .InfoBox{
+    text-align: center;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+} */
+
+/* InfoBox.css */
+
+.InfoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.cardContainer {
+    width: 100%; /* Full width of the container */
+    max-width: 345px; /* Limit the card width */
+    margin: 0 auto; /* Center the card */
+}
+
+.cardContainer .MuiCard-root {
+    border-radius: 8px; /* Rounded corners for the card */
+}
+
+.cardContainer .MuiCardMedia-root {
+    border-top-left-radius: 8px; /* Rounded corners for the top */
+    border-top-right-radius: 8px; /* Rounded corners for the top */
+}
+
+.cardContainer .MuiTypography-h5 {
+    display: flex;
+    align-items: center; /* Center icon and text vertically */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.cardContainer .MuiTypography-body2 {
+    line-height: 1.5; /* Improve readability */
+}
+
+.cardContainer .MuiTypography-body2 p {
+    margin: 5px 0; /* Space between paragraphs */
+}
+
+/* Optional: Add hover effect on the card */
+.cardContainer:hover {
+    transform: scale(1.02); /* Slightly enlarge the card on hover */
+    transition: transform 0.2s; /* Smooth transition */
+}
